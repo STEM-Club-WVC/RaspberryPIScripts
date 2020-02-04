@@ -1,0 +1,67 @@
+sudo apt update
+
+-> sudo apt upgrade
+
+-> sudo apt-get install python3-pip
+
+pi@raspberrypi:~ $ python3 -V
+Python 3.5.3
+pi@raspberrypi:~ $ python2 -V
+Python 2.7.13
+
+-> pip3 install numpy
+
+-> pip3 install pillow
+
+-> pip3 install dlib
+
+-> sudo apt-get install cmake
+
+-> pip3 install face_recognition
+
+-> sudo apt-get install python-opencv
+
+-> sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev
+
+-> sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+
+-> sudo apt-get install libatlas-base-dev
+
+-> sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev -y
+
+-> sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y
+
+-> sudo apt-get install libgtk2.0-dev libgtk-3-dev -y
+
+-> sudo pip3 install opencv-python
+
+-> sudo apt-get install libavformat-dev libswscale-dev openexr libopenexr-dev
+
+-> sudo apt-get install libqt4-dev
+
+-> sudo apt-get install libgstreamer0.10-0-dbg libgstreamer0.10-0 libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev
+
+
+
+pi@raspberrypi:~ $ python3
+Python 3.5.3 (default, Sep 27 2018, 17:25:39) 
+[GCC 6.3.0 20170516] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import cv2
+>>> import dlib
+>>> import face_recognition
+>>> 
+ Run code snippetExpand snippet
+Depends on the system. for PI will take : 2 to 3 hr. (total time)
+
+thanks :)
+
+shareimprove this answer
+edited Feb 9 '19 at 9:10
+
+Ujwala Patil
+1501111 bronze badges
+answered Nov 17 '18 at 6:47
+
+M. D. P
+2623
